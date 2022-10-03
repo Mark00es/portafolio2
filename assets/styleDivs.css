@@ -62,3 +62,8 @@ td{
     display: block;    
     text-align: right;    
 }
+@media (max-width:450px){
+    #hobbies,#proyectos{
+        flex-direction: column;
+    }
+}

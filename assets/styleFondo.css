@@ -88,8 +88,3 @@ hr{
     width: 40px;
     transition: all 1s;
 }
-@media (max-width:450px){
-    .flex-main{                
-        flex-direction: column;
-    }
-}
