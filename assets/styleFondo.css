@@ -1,0 +1,95 @@
+*{    
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #9fe9ff;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;    
+}
+.flex-header{    
+    text-align: center;
+    font-family: serif;    
+    padding: 0px 25px;    
+    flex-basis: 0%;
+    flex-grow: 0;    
+    flex-shrink: 1;    
+}
+.name, .contenido{
+    font-size: 2.5rem;
+}
+.implementar:hover{
+    color:white;
+}
+#foto{
+    width: 45vh;
+    height: 50vh;    
+    border-radius: 50%;    
+    border: 3px solid black;
+}
+.flex-nav{
+    background-color: aqua;
+    flex-basis: 0%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+#menu {    
+    margin:auto;     
+}
+ul{
+    position:relative;
+    float:left;
+    font-size: 1.8rem;    
+    list-style:none;    
+}
+
+.nav > li {
+    float:left;
+}
+
+.nav li a {            
+    text-decoration:none;
+    padding:0px 30px;
+}
+
+.nav li a:hover {
+    color:white;
+}                
+.flex-article{
+    background-color: chartreuse;
+    flex-basis: 0%;
+    flex-grow: 4;
+    flex-shrink: 1;
+}
+hr{
+    border: 3px solid white;
+}
+.flex-aside{
+    background-color: firebrick;
+    flex-basis: 0%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.flex-footer{
+    text-align: center;
+    padding: 2rem;    
+    flex-basis: 0%;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+#botonArriba{
+    position: fixed;
+    bottom: 20px;
+    right: -100px;
+    width: 40px;
+    transition: all 1s;
+}
+@media (max-width:450px){
+    .flex-main{                
+        flex-direction: column;
+    }
+}
