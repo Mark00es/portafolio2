@@ -5,12 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
-    <link rel="stylesheet" href="/assets/styleFondo.css">
-    <link rel="stylesheet" href="/assets/styleDivs.css">
+    <link rel="stylesheet" href="/assets/style.css">    
+    <link rel="icon" href="/assets/imagenes/perfil.jpeg">
 </head>
-<body>    
-    <header class="flex-header">
-        <img src="/assets/imagenes/perfil.png" id="foto">
+<body> 
+    <section class="Inicio">        
+        <div class="name">
+            <br><br>
+            <p>Marco Escobar</p>            
+            <p><span class="title">Front</span> Developer </p>                        
+            <!-- <img src="/assets/imagenes/perfil.png"     id="foto"> -->
+        </div>        
+        <!-- <img src="/assets/imagenes/fondo.gif" id="fondoInicio" >         -->
+    </section>
+    <main class="main">    
+        <nav class="menu">
+            <div class="foto">
+                <p><img src="/assets/imagenes/perfil.jpeg" alt="Marco Escobar" class="foto"></p>
+            </div>
+            <div class="contenedor contenedor-menu">
+                <a href="#Proyectos_">Proyectos</a>
+                <a href="#Hobbies_">Hobbies</a>
+                <a href="#Habilidades_">Habilidades</a>
+                <a href="#sobre-mi">Sobre mi</a>
+            </div>            
+        </nav>         
+        <section class="sobre_mi">
+            <div class="contenedor contenedor-sobre-mi">
+                <h2 class="titulo" id="sobre-mi">Sobre mí</h2>
+                <div class="texto">
+                    <p class="descripcion">                        
+                        <span id="tagline">
+                            Bienvenido: <br><br>
+
+                            Mi nombre es Marco Fernando Escobar Herrada, tengo 22 años estudio <em>Ingenieria de Sistemas</em>
+                            en la UCB.<br><br>
+
+                            Este es mi Portafolio Digital<br><br>
+                            <br><br>                                                 
+                    </p>
+                </div>
+            </div>
+        </section> 
+    <h1 class="titulo" id="Proyectos_">Proyectos</h1>        
+    <p class="info">
+    Los proyectos más significativos que desarrolle son los siguientes:        
+    </p>    
+    <section id="proyectos">        
+        <div class="imagen">
+            <img src="/assets/imagenes/wordle.jpeg" alt=""width="380" height="270">
+                  
+            <p class="info">
+                <span class="link"><a href="https://github.com/Mark00es/proyectoIngeSoft" target="_blank">Codigo</a></span>
+                <span class="link"><a href="https://candid-tulumba-9fe4de.netlify.app/" target="_blank">Demo</a></span>      
+                <p class="info">Ucb-Wordle</p>
+                <p>
+                    Un programa que nos ayuda a aprender nuevas palabras jugando
+                </p>
+            </p>            
+        </div>
+        <div class="imagen">
+            <img src="/assets/imagenes/Manual.jpeg" alt="" width="260" height="270" >
+            <p class="info">                
+                <span class="link"><a href="https://github.com/Mark00es/guideCode" target="_blank">Codigo</a></span>
+                <span class="link"><a href="https://manualmarco.netlify.app/" target="_blank">Demo</a></span>      
+                <p class="info">Manual</p>
+                <p>
+                    Manual que contiene la mayoria de elementos, atributos, etc. Que conforman <em>Html, Css y Javascript</em>
+                </p>
+            </p>            
+        </div>
+    </section>    
+                  
+    </main>
+    <!-- <header class="flex-header">
+        
         <p class="name">Marco Fernando Escobar Herrada</p>
         <p class="contenido"> <span class="implementar">Desarrollador</span>  Web</p>        
     </header>        
@@ -23,37 +92,6 @@
             <li><a href="#Contacto_">Sobre mi</a></li>                        
         </ul>
     </nav>                   
-    <h1 class="titulo" id="Proyectos_">Proyectos</h1>        
-    <p class="info">
-    Los proyectos más significativos que desarrolle son los siguientes:        
-    </p>    
-    <section id="proyectos">        
-        <div class="imagenWordle">
-            <img src="/assets/imagenes/wordle.jpeg" alt=""width="380" height="270">
-                  
-            <p class="info">
-                <span class="link"><a href="https://github.com/Mark00es/proyectoIngeSoft" target="_blank">Codigo</a></span>
-                <span class="link"><a href="https://candid-tulumba-9fe4de.netlify.app/" target="_blank">Demo</a></span>      
-                <p class="info">Ucb-Wordle</p>
-                <p>
-                    Un programa que nos ayuda a aprender nuevas palabras jugando
-                </p>
-            </p>
-            <hr>              
-        </div>
-        <div class="imagenManual">
-            <img src="/assets/imagenes/Manual.jpeg" alt="" width="260" height="270" >
-            <p class="info">                
-                <span class="link"><a href="https://github.com/Mark00es/guideCode" target="_blank">Codigo</a></span>
-                <span class="link"><a href="https://manualmarco.netlify.app/" target="_blank">Demo</a></span>      
-                <p class="info">Manual</p>
-                <p>
-                    Manual que contiene la mayoria de elementos, atributos, etc. Que conforman <em>Html, Css y Javascript</em>
-                </p>
-            </p>
-            <hr>
-        </div>        
-    </section>    
     <h1 class="titulo" id="Hobbies_">Hobbies</h1>           
     <section id="hobbies">                                                   
         <div>
@@ -184,6 +222,9 @@
         </div> 
     </footer>
     <a href="#foto"><img src="/assets/imagenes/arriba.png" id="botonArriba"></a>
-    <script src="./src/botonArriba.js"></script>
+    <script src="./src/botonArriba.js"></script> -->
+    <details><summary><a href="https://cba.ucb.edu.bo/" target="_blank">UCB</a></summary>
+        Universidad Católica Boliviana "San Pablo" - Cochabamba
+    </details>
 </body>
 </html>
